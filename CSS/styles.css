@@ -28,6 +28,8 @@ img {
     border: 3px solid hsl(263, 54%, 63%);
     border-radius: 50px;
     margin-top: 6px;
+    width: 37px;
+    height: 37px;
 }
 
 dl {
@@ -42,6 +44,10 @@ h2 {
 P {
     font-family: 'Barlow Semi Condensed', sans-serif;
     opacity: 70%;
+}
+
+.whiteHeader {
+    color: rgba(255, 255, 255, 0.822);
 }
 
 .img_ul {
@@ -59,7 +65,9 @@ P {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 10px 10px 55px hsl(0, 0%, 81%);
-    background-image: ;
+    background-image: url(../Main/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 10%;
     color: hsl(0, 0%, 81%);
     width: 550px;   
 }
